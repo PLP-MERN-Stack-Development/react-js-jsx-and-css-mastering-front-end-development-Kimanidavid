@@ -15,7 +15,7 @@ const Home = () => (
         Create, organize, and track your tasks effortlessly to boost your productivity.
       </p>
       <div className="space-x-4">
-        <Button variant="primary" onClick={() => console.log('Get Started clicked')}>Get Started</Button>
+        <Button variant="primary" onClick={() => navigate('/tasks')}>Get Started</Button>
         <Button variant="secondary">Learn More</Button>
       </div>
     </Card>
